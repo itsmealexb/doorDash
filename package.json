@@ -1,0 +1,29 @@
+{
+  "name": "doorkicker",
+  "version": "0.0.1",
+  "description": "Let's talk about a door",
+  "main": "index.js",
+  "scripts": {
+    "test": "sudo node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmealexb/doorKicker.git"
+  },
+  "keywords": [
+    "door",
+    "dash",
+    "slack"
+  ],
+  "author": "itsmealexb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmealexb/doorKicker/issues"
+  },
+  "homepage": "https://github.com/itsmealexb/doorKicker#readme",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "pcap": "^2.0.0",
+    "slack-wrapi": "^0.1.6"
+  }
+}
